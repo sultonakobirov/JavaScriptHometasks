@@ -12,7 +12,7 @@ let clientSecond = {
 let clientThird = {
     name: "Li",
     accountNum: 8280,
-    balance: 4000  
+    balance: 4000
 }
 
 
@@ -83,7 +83,7 @@ if(promptName === clientFirst.name.toLocaleLowerCase()){
 
         alert(`Ваше имя: ${newUser.name} Ваш номер аккаунта: ${newUser.accountNum} Ваш баланс: ${newUser.balance}`)
     }else if(conf == false){
-        alert("Хотите удалить аккаунт?")
+        alert("error 501")
     }
 }
 
