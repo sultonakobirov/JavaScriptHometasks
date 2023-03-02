@@ -82,7 +82,7 @@ if(promptName === clientFirst.name.toLocaleLowerCase()){
         newUser.balance = newMoney
 
         alert(`Ваше имя: ${newUser.name} Ваш номер аккаунта: ${newUser.accountNum} Ваш баланс: ${newUser.balance}`)
-    }else if(conf == false){
+    }else{
         alert("error 501")
     }
 }
